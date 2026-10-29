@@ -1,6 +1,6 @@
 # h0nkai-impart-three-namespace-from-rea
 
-《崩坏3》7.0 客户端 IL2CPP 反编译产物的**代码层**整理集。
+《某坏3rd》7.0 客户端 IL2CPP 反编译产物的**代码层**整理集。
 
 ## 目录
 
