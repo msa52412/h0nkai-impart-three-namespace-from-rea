@@ -1,0 +1,115 @@
+tailjmp 桩 764 个，throw 桩 793 个
+方法地址映射 311382 条
+Ghidra 函数 429850 个
+调用边 4373442 条，其中穿透桩 974477 条 = 22.3%
+
+=== 业务 hub Top30（穿透 tailjmp + 剔除 throw 桩） ===
+  VA               调用次数    不同调用者     body  节        方法
+  18042d860      393242   124564      432  .text    FUN_18042d860
+  1804457f0      194268   109482      166  .text    FUN_1804457f0
+  1835d7f80      158559   150027      146  il2cpp   IFix.WrappersManagerImpl::IsPatched
+  1835d7ed0      158047   149522       90  il2cpp   IFix.WrappersManagerImpl::GetPatch
+  18043e4c0      103744    39125      134  .text    FUN_18043e4c0
+  180436120       99317    34344       62  .text    FUN_180436120
+  18042cf20       66546    50794      231  .text    FUN_18042cf20
+  183b83b70       58289    57641      179  il2cpp   IFix.ILFixDynamicMethodWrapper::__Gen_Wrap_13490
+  180436090       51736    21640       23  .text    FUN_180436090
+  185f64590       49533    19019       76  il2cpp   System.Type::GetTypeFromHandle
+  180442320       44938    19754      183  .text    FUN_180442320
+  1804fe070       36024    24172       67  .text    FUN_1804fe070
+  181d1ff70       35374    29672        3  il2cpp   com.adjust.sdk.AdjustConfig::setReadMobileEquipmentIdentity
+  18684a0d0       26139     6140     1199  il2cpp   ProtoBuf.ProtoWriter::WriteInt32
+  18044e770       22559    20128       -1  .text    FUN_18044e770
+  180431fb0       22454     7147       93  .text    FUN_180431fb0
+  1868462f0       22269     4063       98  il2cpp   ProtoBuf.ProtoReader::NoteObject
+  1864a0eb0       21480     8913      216  il2cpp   IFix.Core.Call::PushObject
+  1846f7d30       20456    13764      124  il2cpp   FUN_1846f7d30
+  1836b0c60       19681     8965       72  il2cpp   UnityEngine.ComponentExtensions::SafeSetActive
+  186849bd0       19234     8448     1135  il2cpp   ProtoBuf.ProtoWriter::WriteFieldHeader
+  1863b9460       18471     5529       84  il2cpp   UnityEngine.TransformExtensions::SafeFindTransform
+  182d43380       18281     2314       88  il2cpp   MoleMole.Bake.HEKCOOEBLFO::JEKCNOKMIDD
+  183a57450       17093    17040      204  il2cpp   IFix.ILFixDynamicMethodWrapper::__Gen_Wrap_11108
+  185acd0d0       16046     6398       54  il2cpp   RootMotion.FinalIK.InteractionObject::get_targetsRoot
+  180257840       13650     6740      122  .text    FUN_180257840
+  1869139c0       13649     9586      118  il2cpp   UnityEngine.Object::op_Inequality
+  180261460       13318     7278       66  .text    FUN_180261460
+  186913920       12548     9630      106  il2cpp   UnityEngine.Object::op_Equality
+  180408e20       12348     7771       -1  .text    FUN_180408e20
+
+=== 出度 Top20（巨型分发/初始化函数） ===
+  183144090       16111 440297    MoleMole.CommandMap::InitCommandTypes
+  182d4fd80       15167 682645    MoleMole.Bake.HEKCOOEBLFO::.cctor
+  184768570        3715 62602     proto.ProtobufSerializerPartthree::.cctor
+  1865ba830        3122 45470     ZXing.QrCode.Internal.Version::buildVersions
+  185886d50        3056 76316     ProBuilder2.Common.pb_ColorUtil::.cctor
+  184c4e0b0        2987 51312     proto.ProtobufSerializerPartone::.cctor
+  18676a8e0        2643 46030     proto.ProtobufSerializerPartopenworld::.cctor
+  18533b070        2603 45412     proto.ProtobufSerializerPartactivity::.cctor
+  185ef68c0        2559 44739     proto.ProtobufSerializerParttwo::.cctor
+  18144ff20        2283 56711     BehaviorTreeCreateHelper::CreateInstance
+  185cc67a0        1567 27843     proto.ProtobufSerializerPartarmada::.cctor
+  186a3d370        1531 27063     MiHoYo.SDK.Protobuf.Reflection.DescriptorReflection::.cctor
+  18580eaf0        1487 26423     proto.ProtobufSerializerCommon::.cctor
+  185763680        1437 33336     proto.ProtobufSerializerPartone::Write
+  1856e53e0        1411 37121     proto.ProtobufSerializerPartone::Write
+  1869c6270        1387 24648     proto.ProtobufSerializerPartactivity2::.cctor
+  1864f4b40        1368 31296     System.Text.RegularExpressions.RegexCharClass::.cctor
+  1866b5300        1322 23941     ZXing.OneD.RSS.Expanded.Decoders.FieldParser::.cctor
+  1847d1420        1285 27411     MoleMole.Bake.HEKCOOEBLFO::FFMIAFGEHJG
+  185c934c0        1271 33112     System.Globalization.EncodingTable::.cctor
+
+=== 异常抛出点统计（throw 桩被调次数） ===
+  noreturn 0x180448970  抛出点   946440 次，来自 297273 个函数（82.0%）
+  noreturn 0x180448320  抛出点   186441 次，来自  75035 个函数（16.2%）
+  noreturn 0x18619E1F0  抛出点    18794 次，来自  13981 个函数（1.6%）
+  noreturn 0x1804FE3D0  抛出点     2149 次，来自   2149 个函数（0.2%）
+  noreturn 0x1804FF8E0  抛出点       22 次，来自     12 个函数（0.0%）
+  noreturn 0x18042C2E0  抛出点       18 次，来自     18 个函数（0.0%）
+  noreturn 0x1804482F0  抛出点       10 次，来自      4 个函数（0.0%）
+  noreturn 0x1804FE410  抛出点        5 次，来自      5 个函数（0.0%）
+  noreturn 0x185DD8EA0  抛出点        2 次，来自      2 个函数（0.0%）
+  noreturn 0x18050A9EC  抛出点        1 次，来自      1 个函数（0.0%）
+  noreturn 0x1803F0380  抛出点        1 次，来自      1 个函数（0.0%）
+  noreturn 0x180514A00  抛出点        1 次，来自      1 个函数（0.0%）
+  异常抛出点合计 1153885 = 全部边的 26.4%
+
+=== 桩吃掉多少边 ===
+  0x1804FE400     946440 条  throw→180448970
+  0x1804FE480     393235 条  tailjmp→18042d860
+  0x1804FE3C0     194209 条  tailjmp→180445760
+  0x1804FE3D0     186425 条  throw→180448320
+  0x1835D7F80     158559 条  ?
+  0x1835D7ED0     158047 条  ?
+  0x18043E4C0     103744 条  ?
+  0x1804FE210      99310 条  tailjmp→180436120
+  0x1803EE250      66537 条  tailjmp→18042cf20
+  0x183B83B70      58289 条  ?
+
+=== 入度 0 拆解 ===
+  总数 250380（58.2% of 429850）
+    能映射到 il2cpp 方法 147595  → 虚拟/委托/反射调用，无直接静态调用者
+    无方法名            102785  → 辅助函数/桩/未被识别的入口
+  入度 0 的方法按模块 Top10：
+    Assembly-CSharp.dll                         86079
+    MetaData.dll                                26725
+    Assembly-CSharp-firstpass.dll                3918
+    mscorlib.dll                                 3503
+    Standard.dll                                 2127
+    ProtobufSerializer.Partthree.dll             1579
+    MiHoYoSDK.dll                                1325
+    BehaviorDesigner.Runtime.dll                 1313
+    ProtobufSerializer.Partone.dll               1238
+    ProtobufSerializer.Partopenworld.dll         1172
+
+=== 热点 hub 的调用点偏移分布（判断是否为序言检查） ===
+  0x18042D860   FUN_18042d860                                        采样  386780  偏移0:   0.0%  ≤64:  19.9%
+  0x1804457F0   FUN_1804457f0                                        采样  188457  偏移0:   0.0%  ≤64:  27.6%
+  0x1835D7F80   IFix.WrappersManagerImpl::IsPatched                  采样  158549  偏移0:   0.0%  ≤64:  92.8%
+  0x1835D7ED0   IFix.WrappersManagerImpl::GetPatch                   采样  157937  偏移0:   0.0%  ≤64:  21.8%
+  0x18043E4C0   FUN_18043e4c0                                        采样  103605  偏移0:   0.0%  ≤64:  16.4%
+  0x180436120   FUN_180436120                                        采样   91151  偏移0:   0.0%  ≤64:   0.6%
+  0x18042CF20   FUN_18042cf20                                        采样   66295  偏移0:   0.0%  ≤64:  12.7%
+  0x183B83B70   IFix.ILFixDynamicMethodWrapper::__Gen_Wrap_13490     采样   58254  偏移0:   0.0%  ≤64:   7.9%
+
+写出 D:\Carol-start\_rea\bh3_cg_hubs2.tsv
+写出 D:\Carol-start\_rea\bh3_cg_throw.tsv

@@ -1,0 +1,68 @@
+{
+  "pid": 60040,
+  "writes": [
+    {
+      "va": 7697298710420,
+      "old": "00000000",
+      "new": "34000000",
+      "size": 4,
+      "desc": "bossGroup.groupID = 52"
+    },
+    {
+      "va": 7697298710424,
+      "old": "00000000",
+      "new": "100e0000",
+      "size": 4,
+      "desc": "bossGroup.maxScore = 3600"
+    },
+    {
+      "va": 7697298710428,
+      "old": "00000000",
+      "new": "fd080000",
+      "size": 4,
+      "desc": "bossGroup.MonsterInitType = 2301"
+    },
+    {
+      "va": 7697298710432,
+      "old": "00000000",
+      "new": "0000803f",
+      "size": 4,
+      "desc": "bossGroup.MonsterScoreRatio = 1.0（表值）"
+    },
+    {
+      "va": 7697298710448,
+      "old": "01",
+      "new": "01",
+      "size": 1,
+      "desc": "bossGroup.isBoss = 1"
+    },
+    {
+      "va": 7697298710460,
+      "old": "00000000",
+      "new": "e9030000",
+      "size": 4,
+      "desc": "bossGroup.environmentID = 1001"
+    },
+    {
+      "va": 7697298710440,
+      "old": "0000000000000000",
+      "new": "60309b2300070000",
+      "size": 8,
+      "desc": "bossGroup.areaName <- 迪拉克指针"
+    },
+    {
+      "va": 7697298710488,
+      "old": "0000000000000000",
+      "new": "404f372300070000",
+      "size": 8,
+      "desc": "bossGroup.luaFilePath <- 迪拉克指针"
+    },
+    {
+      "va": 7697258780744,
+      "old": "00000000",
+      "new": "34000000",
+      "size": 4,
+      "desc": "LayerInfo._bossGroupID = 52"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+Initialize engine version: 2017.4.18f1 (0)
+[MHY] miHoYo engine version: 7548
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     11994 MB
+    Driver:   32.0.15.9636
+Default GameObject Tag: SceneMainLight already registered
+ 
+(Filename:  Line: 116)
+
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.995100 ms
+config.ini is not exist
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MiHoYo.SDK.ConfigIniUtil:LoadConfigIni()
+MiHoYo.SDK.MiHoYoSDK:ReadConfigIni()
+MiHoYo.SDK.MiHoYoSDK:Instance()
+MoleMole.Miscs:GetUaPc()
+MoleMole.MonoGameStateUpload:GetGameStateUploadUrl(String, String, String, String, String)
+MoleMole.UploadData:GetUrl()
+MoleMole.<ReportGameStateCoroutine>d__21:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+MoleMole.MonoGameStateUpload:BeginReport(UploadData)
+MoleMole.MonoGameStateUpload:TryReportGameStateActionForLogin(GameStateAction, String)
+MoleMole.MonoDataPersistent:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 37)
+UnloadTime: 1.185700 ms
+AdTrackManager Init
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MoleMole.JEIJJPHLCKE:CBJJCJIFCMH()
+MoleMole.EOOIALILLMB:NDPOMMGJING()
+MoleMole.MonoGameEntry:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Get Advertising Identifiers fail
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MoleMole.EOOIALILLMB:NDPOMMGJING()
+MoleMole.MonoGameEntry:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 21839.
+Total: 6.295300 ms (FindLiveObjects: 0.569100 ms CreateObjectMapping: 0.897700 ms MarkObjects: 4.785800 ms  DeleteObjects: 0.042200 ms)
+

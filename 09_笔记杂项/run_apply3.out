@@ -1,0 +1,141 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-Ubuntu, mixed mode)
+INFO  Using log config file: jar:file:/home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/nas/.config/ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/nas/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1227 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2527 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/nas/re/ghidra/scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/nas/opt/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/nas/re/ghidra/proj4/bh3fix (HeadlessAnalyzer)  
+INFO  Opening project: /home/nas/re/ghidra/proj4/bh3fix (HeadlessProject)  
+INFO  REPORT: Processing project file: /UserAssembly_fixed.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ApplySymbols.java '/home/nas/re/sym/bh3_symtab.tsv' '/home/nas/re/sym/report_apply3.txt' '0'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/nas/re/ghidra/scripts/ApplySymbols.java (HeadlessAnalyzer)  
+INFO  ApplySymbols.java> 读入 398317 行，主名 311382，坏行 0，别名 RVA 6650 (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (1s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (2s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (3s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (4s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> PROGRESS 1 renamed / 311382  (5s) (GhidraScript)  
+INFO  ApplySymbols.java> === ApplySymbols 完成 5s ===
+主名条目      : 311382
+找到函数      : 311382
+已重命名      : 1
+新建函数      : 730
+保留原名      : 310651（已有非 FUN_ 名字）
+未找到函数    : 0
+重名放弃      : 0
+异常          : 0
+命名空间缓存  : 400
+
+样例：
+  05E90050  ::Locale::GetText  [new]
+  05BC87F0  Mono.Globalization.Unicode::MSCompatUnicodeTable::IsHalfWidthKana  [new]
+  04D7C180  ::ContentInfo::get_ContentType  [new]
+  059BC400  ::DeriveBytes::set_IterationCount  [new]
+  05CDB7F0  Mono.Security.Cryptography::KeyPairPersistence::get_CanChange  [new]
+  0402DE60  System::Array::System_Collections_IList_get_IsReadOnly  [new]
+  0308FD60  System::Array::CombineHashCodes  [new]
+  05DC9A50  System::Array::GetValueImpl  [new]
+  05DE6360  System::Tuple::CombineHashCodes  [new]
+  058D27C0  System::Activator::CreateInstance  [new]
+  06066AB0  System::BitConverter::Int64BitsToDouble  [new]
+  05DE7140  System::Boolean::CompareTo  [new]
+  06027370  System::Buffer::IndexOfByte  [new]
+  060276C0  System::Buffer::memcpy2  [new]
+  06027610  System::Buffer::memcpy1  [new]
+  06027480  System::Buffer::Memcpy  [new]
+  05F429C0  System::Byte::CompareTo  [new]
+  06158BD0  System::Char::CompareTo  [new]
+  0615A6A0  System::Char::ToString  [new]
+  063B6E00  System::Convert::ToBoolean  [new]
+ (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /UserAssembly_fixed.dll (HeadlessAnalyzer)  

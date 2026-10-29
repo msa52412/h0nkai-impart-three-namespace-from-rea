@@ -1,0 +1,452 @@
+Initialize engine version: 2017.4.18f1 (0)
+[MHY] miHoYo engine version: 7548
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.9636
+Default GameObject Tag: SceneMainLight already registered
+ 
+(Filename:  Line: 116)
+
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.980800 ms
+config.ini is not exist
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MiHoYo.SDK.ConfigIniUtil:LoadConfigIni()
+MiHoYo.SDK.MiHoYoSDK:ReadConfigIni()
+MiHoYo.SDK.MiHoYoSDK:Instance()
+MoleMole.Miscs:GetUaPc()
+MoleMole.MonoGameStateUpload:GetGameStateUploadUrl(String, String, String, String, String)
+MoleMole.UploadData:GetUrl()
+MoleMole.<ReportGameStateCoroutine>d__21:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+MoleMole.MonoGameStateUpload:BeginReport(UploadData)
+MoleMole.MonoGameStateUpload:TryReportGameStateActionForLogin(GameStateAction, String)
+MoleMole.MonoDataPersistent:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+failed to load streaming asb :17231015214073929779_4167636407.unity3d
+assetPath:GameEntry
+ SubPakId:1000 DownloadType:1 block:10cd57c177f6a2c1223673f3b168b7f5.wmv
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MoleMole.DMNJPBIJNIJ:CGIONHEJAGJ(String, String)
+MoleMole.DEBJAHNJGBJ:PPBKMAFOHHI(String, Boolean, Boolean)
+MoleMole.DMNJPBIJNIJ:BHEGCIIPBAP(String, Boolean, Boolean)
+MoleMole.Miscs:LoadScene(String, String, LoadSceneMode)
+MoleMole.<ShowSplash>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+failed to load streaming asb :9187291764882806043_2577793213.unity3d
+assetPath:GameEntry
+ SubPakId:1000 DownloadType:1 block:c0d7fe4842430a4f5d587d6881e7b4f5.wmv
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MoleMole.DMNJPBIJNIJ:CGIONHEJAGJ(String, String)
+MoleMole.DEBJAHNJGBJ:PPBKMAFOHHI(String, Boolean, Boolean)
+MoleMole.DMNJPBIJNIJ:BHEGCIIPBAP(String, Boolean, Boolean)
+MoleMole.Miscs:LoadScene(String, String, LoadSceneMode)
+MoleMole.<ShowSplash>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 35)
+UnloadTime: 0.986600 ms
+failed to load streaming asb :17231015214073929779_4167636407.unity3d
+assetPath:Assets/AsbRes/Shaders/UI/Default.shader
+ SubPakId:1000 DownloadType:1 block:10cd57c177f6a2c1223673f3b168b7f5.wmv
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MoleMole.DMNJPBIJNIJ:CGIONHEJAGJ(String, String)
+MoleMole.DEBJAHNJGBJ:PPBKMAFOHHI(String, Boolean, Boolean)
+MoleMole.DMNJPBIJNIJ:BHEGCIIPBAP(String, Boolean, Boolean)
+MoleMole.DMNJPBIJNIJ:MACDMOENDAG(Type, String)
+MoleMole.Miscs:LoadStaticResource(Type, String, String)
+MoleMole.LODAPDPIJGK:NHCPFPKAJMF(Type, BundleType, String, String)
+MoleMole.LODAPDPIJGK:BBNGMHHOOBI(Type, String, String)
+MoleMole.Miscs:LoadResource(Type, String, BundleType, String)
+MoleMole.Miscs:LoadResource(String, BundleType, String)
+MoleMole.Miscs:LoadShader(String)
+MoleMole.EOOIALILLMB:NDPOMMGJING()
+MoleMole.MonoGameEntry:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AdTrackManager Init
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MoleMole.JEIJJPHLCKE:CBJJCJIFCMH()
+MoleMole.EOOIALILLMB:NDPOMMGJING()
+MoleMole.MonoGameEntry:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Get Advertising Identifiers fail
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MoleMole.EOOIALILLMB:NDPOMMGJING()
+MoleMole.MonoGameEntry:Awake()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 21809.
+Total: 4.851800 ms (FindLiveObjects: 0.463900 ms CreateObjectMapping: 0.745400 ms MarkObjects: 3.613800 ms  DeleteObjects: 0.028500 ms)
+
+failed to load streaming asb :17231015214073929779_4167636407.unity3d
+assetPath:Assets/AsbRes/GameEntry/StartLoading_Model.prefab
+ SubPakId:1000 DownloadType:1 block:10cd57c177f6a2c1223673f3b168b7f5.wmv
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+MoleMole.DMNJPBIJNIJ:CGIONHEJAGJ(String, String)
+MoleMole.DEBJAHNJGBJ:PPBKMAFOHHI(String, Boolean, Boolean)
+MoleMole.DMNJPBIJNIJ:BHEGCIIPBAP(String, Boolean, Boolean)
+MoleMole.DMNJPBIJNIJ:MACDMOENDAG(Type, String)
+MoleMole.Miscs:LoadStaticResource(Type, String, String)
+MoleMole.LODAPDPIJGK:NHCPFPKAJMF(Type, BundleType, String, String)
+MoleMole.LODAPDPIJGK:BBNGMHHOOBI(Type, String, String)
+MoleMole.Miscs:LoadResource(Type, String, BundleType, String)
+MoleMole.Miscs:LoadResource(String, BundleType, String)
+MoleMole.JBMBIJNKDHO:BPAGAKPEMIK(String, ContextPattern)
+MoleMole.JBMBIJNKDHO:KLLKHGNBBBO(String, ContextPattern, Boolean)
+MoleMole.MainUIManager:LoadInstancedView(BaseContext)
+MoleMole.BaseContext:StartUp(Transform, Transform)
+MoleMole.MainUIManager:ShowWidget(BaseWidgetContext, UIType)
+MoleMole.MonoGameEntry:Start()
+ 
+(Filename: D:\BH3EngineDevPC\Unity2017_4_18f1\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Size overflow in allocator.
+MoleMole.DMNJPBIJNIJ:DLDOHFIPHGD(String, Type, Boolean)
+MoleMole.DMNJPBIJNIJ:MACDMOENDAG(Type, String)
+MoleMole.Miscs:LoadStaticResource(Type, String, String)
+MoleMole.LODAPDPIJGK:NHCPFPKAJMF(Type, BundleType, String, String)
+MoleMole.LODAPDPIJGK:BBNGMHHOOBI(Type, String, String)
+MoleMole.Miscs:LoadResource(Type, String, BundleType, String)
+MoleMole.Miscs:LoadResource(String, BundleType, String)
+MoleMole.JBMBIJNKDHO:BPAGAKPEMIK(String, ContextPattern)
+MoleMole.JBMBIJNKDHO:KLLKHGNBBBO(String, ContextPattern, Boolean)
+MoleMole.MainUIManager:LoadInstancedView(BaseContext)
+MoleMole.BaseContext:StartUp(Transform, Transform)
+MoleMole.MainUIManager:ShowWidget(BaseWidgetContext, UIType)
+MoleMole.MonoGameEntry:Start()
+
+[ line 95] 
+(Filename:  Line: 95)
+
+Could not allocate memory: System out of memory!
+Trying to allocate: 18446744071578970534B with 16 alignment. MemoryLabel: String
+Allocation happend at: Line:303 in 
+Memory overview
+
+[ ALLOC_DEFAULT ] used: 32018944B | peak: 0B | reserved: 39845888B 
+[ ALLOC_TEMP_JOB ] used: 0B | peak: 0B | reserved: 8388608B 
+[ ALLOC_TEMP_BACKGROUND_JOB ] used: 0B | peak: 0B | reserved: 1048576B 
+[ ALLOC_GFX ] used: 89064B | peak: 0B | reserved: 5242880B 
+[ ALLOC_CACHEOBJECTS ] used: 7821512B | peak: 0B | reserved: 12582912B 
+[ ALLOC_TYPETREE ] used: 183776B | peak: 0B | reserved: 4194304B 
+[ ALLOC_PROFILER ] used: 0B | peak: 0B | reserved: 0B 
+[ ALLOC_TEMP_THREAD ] used: 117052B | peak: 0B | reserved: 4587520B 
+Could not allocate memory: System out of memory!
+Trying to allocate: 18446744071578970534B with 16 alignment. MemoryLabel: String
+Allocation happend at: Line:303 in 
+Memory overview
+
+[ ALLOC_DEFAULT ] used: 32018944B | peak: 0B | reserved: 39845888B 
+[ ALLOC_TEMP_JOB ] used: 0B | peak: 0B | reserved: 8388608B 
+[ ALLOC_TEMP_BACKGROUND_JOB ] used: 0B | peak: 0B | reserved: 1048576B 
+[ ALLOC_GFX ] used: 89064B | peak: 0B | reserved: 5242880B 
+[ ALLOC_CACHEOBJECTS ] used: 7821512B | peak: 0B | reserved: 12582912B 
+[ ALLOC_TYPETREE ] used: 183776B | peak: 0B | reserved: 4194304B 
+[ ALLOC_PROFILER ] used: 0B | peak: 0B | reserved: 0B 
+[ ALLOC_TEMP_THREAD ] used: 117052B | peak: 0B | reserved: 4587520B 
+
+MoleMole.DMNJPBIJNIJ:DLDOHFIPHGD(String, Type, Boolean)
+MoleMole.DMNJPBIJNIJ:MACDMOENDAG(Type, String)
+MoleMole.Miscs:LoadStaticResource(Type, String, String)
+MoleMole.LODAPDPIJGK:NHCPFPKAJMF(Type, BundleType, String, String)
+MoleMole.LODAPDPIJGK:BBNGMHHOOBI(Type, String, String)
+MoleMole.Miscs:LoadResource(Type, String, BundleType, String)
+MoleMole.Miscs:LoadResource(String, BundleType, String)
+MoleMole.JBMBIJNKDHO:BPAGAKPEMIK(String, ContextPattern)
+MoleMole.JBMBIJNKDHO:KLLKHGNBBBO(String, ContextPattern, Boolean)
+MoleMole.MainUIManager:LoadInstancedView(BaseContext)
+MoleMole.BaseContext:StartUp(Transform, Transform)
+MoleMole.MainUIManager:ShowWidget(BaseWidgetContext, UIType)
+MoleMole.MonoGameEntry:Start()
+
+[ line 1110] 
+(Filename:  Line: 1110)
+
+
+δ���������쳣:  System.AccessViolationException: ���Զ�ȡ��д���ܱ������ڴ档��ͨ��ָʾ�����ڴ����𻵡�
+   �� BH3Loader.Main(String[] args)
+Crash!!!
+SymInit: Symbol-SearchPath: '.;D:\BH3\7.0;D:\BH3\7.0;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Administrator'
+OS-Version: 6.2.9200 () 0x100-0x1
+D:\BH3\7.0\BH3Loader.exe:BH3Loader.exe (0000000140000000), size: 24576 (result: 0), SymType: '-nosymbols-', PDB: 'D:\BH3\7.0\BH3Loader.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FF9C58F0000), size: 2064384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.2.19041.5438
+C:\Windows\SYSTEM32\MSCOREE.DLL:MSCOREE.DLL (00007FF9B3E00000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSCOREE.DLL', fileVersion: 6.2.19041.1
+C:\Windows\System32\KERNEL32.dll:KERNEL32.dll (00007FF9C5750000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.dll', fileVersion: 6.2.19041.5438
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF9C2F90000), size: 3141632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 6.2.19041.5486
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF9C4A00000), size: 716800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 6.2.19041.5438
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FF9C54D0000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.19041.3636
+C:\Windows\System32\sechost.dll:sechost.dll (00007FF9C3970000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 6.2.19041.5072
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FF9C5570000), size: 1191936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 6.2.19041.4957
+C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FF9C3350000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcrypt.dll', fileVersion: 6.2.19041.5369
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll:mscoreei.dll (00007FF9B3D50000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll', fileVersion: 4.8.4180.0
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF9C49A0000), size: 348160 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHLWAPI.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF9C0E30000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 6.2.19041.3758
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FF9BDA90000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.2.19041.3636
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll:clr.dll (00007FF9B3210000), size: 11751424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll', fileVersion: 4.8.4772.0
+C:\Windows\System32\USER32.dll:USER32.dll (00007FF9C46B0000), size: 1691648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 6.2.19041.4717
+C:\Windows\System32\win32u.dll:win32u.dll (00007FF9C3290000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 6.2.19041.5486
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FF9C5270000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 6.2.19041.4474
+C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll:VCRUNTIME140_CLR0400.dll (00007FF9B1EE0000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll', fileVersion: 14.10.25028.0
+C:\Windows\SYSTEM32\ucrtbase_clr0400.dll:ucrtbase_clr0400.dll (00007FF9B1E20000), size: 774144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ucrtbase_clr0400.dll', fileVersion: 14.10.25028.0
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FF9C3680000), size: 1155072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 6.2.19041.5438
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FF9C35E0000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FF9C3380000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FF9C4E80000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.DLL', fileVersion: 6.2.19041.4474
+C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\64b0c621b6cf571bef77798d1be6d7be\mscorlib.ni.dll:mscorlib.ni.dll (00007FF9AFCC0000), size: 23449600 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\64b0c621b6cf571bef77798d1be6d7be\mscorlib.ni.dll', fileVersion: 4.8.4772.0
+C:\Windows\System32\ole32.dll:ole32.dll (00007FF9C53A0000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 6.2.19041.5369
+C:\Windows\System32\combase.dll:combase.dll (00007FF9C4EB0000), size: 3493888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 6.2.19041.5369
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF9C32C0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 6.2.19041.5007
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FF9C08C0000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.2.19041.4529
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll:clrjit.dll (00007FF9AC720000), size: 1372160 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll', fileVersion: 4.8.4772.0
+D:\BH3\7.0\UnityPlayer.dll:UnityPlayer.dll (00007FF91DF00000), size: 29065216 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\UnityPlayer.dll', fileVersion: 2017.4.18.0
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FF9C52A0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\PSAPI.DLL', fileVersion: 6.2.19041.3636
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FF9C38A0000), size: 430080 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WINTRUST.dll', fileVersion: 6.2.19041.5369
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF9C4230000), size: 4657152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.dll', fileVersion: 6.2.19041.5369
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FF9C17E0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.2.19041.3636
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FF9C37A0000), size: 319488 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cfgmgr32.dll', fileVersion: 6.2.19041.3996
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FF9C3A10000), size: 7786496 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 6.2.19041.5438
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FF9C4E10000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF9C4850000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FF9C3480000), size: 1425408 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 6.2.19041.5072
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FF9B94A0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF927120000), size: 1212416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.2.19041.5438
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF9C2370000), size: 827392 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DNSAPI.dll', fileVersion: 6.2.19041.5369
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF9C2330000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF9BD900000), size: 1089536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINHTTP.dll', fileVersion: 6.2.19041.5438
+C:\Windows\SYSTEM32\Wlanapi.dll:Wlanapi.dll (00007FF9BDCC0000), size: 475136 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\Wlanapi.dll', fileVersion: 6.2.19041.5369
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FF9B7AB0000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FF9C2EC0000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF9C2AE0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSASN1.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\NSI.dll:NSI.dll (00007FF9C5390000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\NSI.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FF9C2860000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.DLL', fileVersion: 6.2.19041.3636
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FF9C4920000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\imagehlp.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\shcore.dll:shcore.dll (00007FF9C4180000), size: 708608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 6.2.19041.4522
+C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF9C1030000), size: 8011776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\windows.storage.dll', fileVersion: 6.2.19041.5438
+C:\Windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FF9C28F0000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\Wldp.dll', fileVersion: 6.2.19041.5486
+D:\BH3\7.0\BH3Loader_Data\Native\UserAssembly.dll:UserAssembly.dll (00007FF9036A0000), size: 196857856 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Native\UserAssembly.dll'
+C:\Windows\system32\mswsock.dll:mswsock.dll (00007FF9C2650000), size: 442368 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\mswsock.dll', fileVersion: 6.2.19041.5487
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FF9C4AB0000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 6.2.19041.5438
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FF9BEDF0000), size: 2502656 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FF9C1820000), size: 1007616 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 6.2.19041.5438
+C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvldumdx.dll:nvldumdx.dll (00007FF9A3350000), size: 806912 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvldumdx.dll', fileVersion: 32.0.15.9636
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF9C2840000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTSP.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FF9BCCC0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cryptnet.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FF9BC960000), size: 1339392 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\drvstore.dll', fileVersion: 6.2.19041.5369
+C:\Windows\SYSTEM32\devobj.dll:devobj.dll (00007FF9C2CB0000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\devobj.dll', fileVersion: 6.2.19041.4355
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FF9C1F70000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rsaenh.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\gpapi.dll:gpapi.dll (00007FF9C17F0000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\gpapi.dll', fileVersion: 6.2.19041.4355
+C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvgpucomp64.dll:nvgpucomp64.dll (00007FF97E450000), size: 83193856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvgpucomp64.dll', fileVersion: 32.0.15.9636
+C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FF983FA0000), size: 1290240 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\NvMemMapStoragex.dll'
+C:\Windows\SYSTEM32\POWRPROF.dll:POWRPROF.dll (00007FF9C2DF0000), size: 307200 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\POWRPROF.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FF9C2DD0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\UMPDC.dll'
+C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvwgf2umx.dll:nvwgf2umx.dll (00007FF978750000), size: 87719936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvwgf2umx.dll', fileVersion: 32.0.15.9636
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FF9BB700000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxcore.dll', fileVersion: 6.2.19041.4474
+C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvppex.dll:nvppex.dll (00007FF976590000), size: 7491584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_0cc79ee359bdef40\nvppex.dll', fileVersion: 32.0.15.9636
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FF9C56A0000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF9B5270000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemprox.dll', fileVersion: 6.2.19041.4474
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF9B5290000), size: 589824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wbemcomn.dll', fileVersion: 6.2.19041.4355
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF9B4490000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemsvc.dll', fileVersion: 6.2.19041.4474
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FF9B46B0000), size: 1097728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\fastprox.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FF9B41A0000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\amsi.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\mscms.dll:mscms.dll (00007FF9BCBF0000), size: 712704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\mscms.dll', fileVersion: 6.2.19041.5129
+C:\Windows\SYSTEM32\ColorAdapterClient.dll:ColorAdapterClient.dll (00007FF9BCCA0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ColorAdapterClient.dll', fileVersion: 6.2.19041.5129
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FF9C2E80000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\USERENV.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\icm32.dll:icm32.dll (00007FF9A3210000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\icm32.dll', fileVersion: 6.2.19041.5129
+C:\Windows\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00007FF9A6070000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\xinput1_3.dll', fileVersion: 10.0.26200.1
+C:\Windows\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FF9B6780000), size: 1019904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\textinputframework.dll', fileVersion: 6.2.19041.5438
+C:\Windows\System32\CoreUIComponents.dll:CoreUIComponents.dll (00007FF9BF640000), size: 3518464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CoreUIComponents.dll', fileVersion: 6.2.19041.3636
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FF9BFD20000), size: 991232 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CoreMessaging.dll', fileVersion: 6.2.19041.5486
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF9C21C0000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FF9BE240000), size: 1404928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wintypes.dll', fileVersion: 6.2.19041.5369
+D:\BH3\7.0\BH3Loader_Data\Plugins\AssetNativePlugin.dll:AssetNativePlugin.dll (00007FF9A3D30000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AssetNativePlugin.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF9B3190000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\VCRUNTIME140.dll', fileVersion: 14.16.27024.1
+D:\BH3\7.0\BH3Loader_Data\Plugins\MSVCP140.dll:MSVCP140.dll (00007FF938A80000), size: 634880 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\MSVCP140.dll', fileVersion: 14.16.27024.1
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF9BE220000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF9BE100000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dhcpcsvc.DLL', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF9C0B30000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dwmapi.dll', fileVersion: 6.2.19041.4355
+D:\BH3\7.0\BH3Loader_Data\Plugins\AkSoundEngine.dll:AkSoundEngine.dll (00007FF926F60000), size: 1830912 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AkSoundEngine.dll'
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FF9BD2F0000), size: 561152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.2.19041.5438
+D:\BH3\7.0\BH3Loader_Data\Plugins\AkGuitarDistortion.dll:AkGuitarDistortion.dll (00007FF9A31C0000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AkGuitarDistortion.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\AkTimeStretch.dll:AkTimeStretch.dll (00007FF9A28A0000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AkTimeStretch.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\AkRecorder.dll:AkRecorder.dll (00007FF9A3430000), size: 225280 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AkRecorder.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\AkStereoDelay.dll:AkStereoDelay.dll (00007FF99BAB0000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AkStereoDelay.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\AkPitchShifter.dll:AkPitchShifter.dll (00007FF999DF0000), size: 262144 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\AkPitchShifter.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\InControlNative.dll:InControlNative.dll (00007FF938A40000), size: 237568 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\InControlNative.dll'
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FF926F10000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.2.19041.1
+C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FF9B6620000), size: 1384448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\inputhost.dll', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF9BE120000), size: 1007616 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.19041.5369
+C:\Windows\SYSTEM32\XInput1_4.dll:XInput1_4.dll (00007FF9AF670000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\XInput1_4.dll', fileVersion: 6.2.19041.3636
+D:\BH3\7.0\BH3Loader_Data\Plugins\ulua.dll:ulua.dll (00007FF921DE0000), size: 3674112 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\ulua.dll'
+D:\BH3\7.0\BH3Loader_Data\Plugins\cri_ware_unity.dll:cri_ware_unity.dll (00007FF921900000), size: 5103616 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\cri_ware_unity.dll'
+C:\Windows\SYSTEM32\MFPlat.DLL:MFPlat.DLL (00007FF99CC70000), size: 1818624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MFPlat.DLL', fileVersion: 6.2.19041.4597
+C:\Windows\SYSTEM32\AVRT.dll:AVRT.dll (00007FF9BDAD0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\AVRT.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\RTWorkQ.DLL:RTWorkQ.DLL (00007FF9ACDE0000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\RTWorkQ.DLL', fileVersion: 6.2.19041.4842
+C:\Windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FF9BCEF0000), size: 1576960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\AUDIOSES.DLL', fileVersion: 6.2.19041.4355
+C:\Windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FF9C0A30000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\resourcepolicyclient.dll', fileVersion: 6.2.19041.4355
+C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FF9B6880000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\Windows.UI.dll', fileVersion: 6.2.19041.4355
+C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FF9BD400000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WindowManagementAPI.dll'
+C:\Windows\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FF9BD080000), size: 2109440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\twinapi.appcore.dll', fileVersion: 6.2.19041.4597
+D:\BH3\7.0\BH3Loader_Data\Plugins\cri_mana_vpx.dll:cri_mana_vpx.dll (00007FF921530000), size: 2121728 (result: 0), SymType: '-exported-', PDB: 'D:\BH3\7.0\BH3Loader_Data\Plugins\cri_mana_vpx.dll'
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\diasymreader.dll:diasymreader.dll (00007FF9A3B60000), size: 1515520 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\diasymreader.dll', fileVersion: 14.8.4775.0
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF9B8B60000), size: 1982464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.2.19041.3636
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FF9C2E40000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 6.2.19041.5369
+
+========== OUTPUTING STACK TRACE ==================
+
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91EB2FBB3)
+0x00007FF91EB2FBB3 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E56C109)
+0x00007FF91E56C109 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E6D7C9C)
+0x00007FF91E6D7C9C (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E908D89)
+0x00007FF91E908D89 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E3D36C1)
+0x00007FF91E3D36C1 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E3D3A32)
+0x00007FF91E3D3A32 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E3D392A)
+0x00007FF91E3D392A (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E6F4B85)
+0x00007FF91E6F4B85 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E6EFEED)
+0x00007FF91E6EFEED (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E907C46)
+0x00007FF91E907C46 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E9085DC)
+0x00007FF91E9085DC (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E3D1426)
+0x00007FF91E3D1426 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E3D1675)
+0x00007FF91E3D1675 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E3D393A)
+0x00007FF91E3D393A (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E5822BB)
+0x00007FF91E5822BB (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E581F37)
+0x00007FF91E581F37 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E914632)
+0x00007FF91E914632 (UnityPlayer) (function-name not available)
+0x00007FF904061792 (UserAssembly) il2cpp_get_api_table
+0x00007FF904062CF5 (UserAssembly) il2cpp_get_api_table
+0x00007FF905BF5CCB (UserAssembly) il2cpp_get_api_table
+0x00007FF90480CEBC (UserAssembly) il2cpp_get_api_table
+0x00007FF90480AB50 (UserAssembly) il2cpp_get_api_table
+0x00007FF905BF53F6 (UserAssembly) il2cpp_get_api_table
+0x00007FF906B38930 (UserAssembly) il2cpp_get_api_table
+0x00007FF905B78702 (UserAssembly) il2cpp_get_api_table
+0x00007FF905B79562 (UserAssembly) il2cpp_get_api_table
+0x00007FF903FC5239 (UserAssembly) il2cpp_get_api_table
+0x00007FF906712AB8 (UserAssembly) il2cpp_get_api_table
+0x00007FF903FC7553 (UserAssembly) il2cpp_get_api_table
+0x00007FF9055BE9FA (UserAssembly) il2cpp_get_api_table
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF9038433AC)
+0x00007FF9038433AC (UserAssembly) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF903AE0EE3)
+0x00007FF903AE0EE3 (UserAssembly) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E868014)
+0x00007FF91E868014 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E8CBA50)
+0x00007FF91E8CBA50 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E8D07EF)
+0x00007FF91E8D07EF (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E8D0C25)
+0x00007FF91E8D0C25 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E8CF326)
+0x00007FF91E8CF326 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E6337D9)
+0x00007FF91E6337D9 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E766522)
+0x00007FF91E766522 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91E76895A)
+0x00007FF91E76895A (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91ED9F264)
+0x00007FF91ED9F264 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91ED9E65A)
+0x00007FF91ED9E65A (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FF91EDA0A9B)
+0x00007FF91EDA0A9B (UnityPlayer) (function-name not available)
+0x00007FF91EDA0C5B (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: '找不到指定的模块。
+' (Address: 00007FF953D414A5)
+  ERROR: SymGetModuleInfo64, GetLastError: '动态链接库(DLL)初始化例程失败。
+' (Address: 00007FF953D414A5)
+0x00007FF953D414A5 ((<unknown>)) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '找不到指定的模块。
+' (Address: 00007FF953D40B7C)
+  ERROR: SymGetModuleInfo64, GetLastError: '动态链接库(DLL)初始化例程失败。
+' (Address: 00007FF953D40B7C)
+0x00007FF953D40B7C ((<unknown>)) (function-name not available)
+0x00007FF9B32169A3 (clr) DllCanUnloadNowInternal
+0x00007FF9B32168C0 (clr) DllCanUnloadNowInternal
+0x00007FF9B3217160 (clr) DllCanUnloadNowInternal
+0x00007FF9B336D56B (clr) SetRuntimeInfo
+0x00007FF9B336DE0F (clr) SetRuntimeInfo
+0x00007FF9B336DCC2 (clr) SetRuntimeInfo
+0x00007FF9B336D608 (clr) SetRuntimeInfo
+0x00007FF9B336D361 (clr) SetRuntimeInfo
+0x00007FF9B336DF74 (clr) CorExeMain
+0x00007FF9B3D58C01 (mscoreei) CorExeMain
+0x00007FF9B3E0AC42 (MSCOREE) CorExeMain
+0x00007FF9C5767374 (KERNEL32) BaseThreadInitThunk
+0x00007FF9C593CC91 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****
